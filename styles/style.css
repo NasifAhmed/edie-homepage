@@ -51,4 +51,8 @@ nav {
 .navbar ul li {
     padding-left: 3vw;
     padding-top: 4vh;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
