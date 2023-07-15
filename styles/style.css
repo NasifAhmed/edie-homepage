@@ -100,6 +100,39 @@ form {
     padding-right: 20vw;
 }
 
+.introduction h3 {
+    color: #2D9CDB;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.introduction p {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 26rem;
+}
+
+.introduction h4 {
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .introduction img {
     align-self: center;
+    border-radius: 18px;
 }
