@@ -83,3 +83,23 @@ nav {
             Main Section
 
 */
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.introduction h3,
+h1,
+h4,
+p,
+form {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.introduction img {
+    align-self: center;
+}
