@@ -32,27 +32,32 @@ body {
 
 nav {
     display: flex;
+    align-items: center;
+    margin-top: 4vh;
 }
 
 .logo {
     flex-grow: 2;
-    padding-top: 4vh;
     font-family: Heebo;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    display: inline;
 }
 
-.navbar ul {
+.navbar {
     display: flex;
 }
 
-.navbar ul li {
+.navbar li {
     padding-left: 3vw;
-    padding-top: 4vh;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.navbar li a {
+    cursor: pointer;
 }
