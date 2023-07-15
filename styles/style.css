@@ -30,10 +30,14 @@ body {
     margin-right: 3vw;
 }
 
+header {
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
 nav {
     display: flex;
     align-items: center;
-    margin-top: 4vh;
 }
 
 .logo {
