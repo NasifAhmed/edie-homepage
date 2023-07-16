@@ -400,19 +400,59 @@ main>section {
     line-height: normal;
 }
 
+
+/* Footer section */
+
 footer {
+    background-color: #100E1D;
     margin-top: 30vh;
-    margin-bottom: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
-    color: #A9A9A9;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 14px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 20rem;
+    color: #F2F2F2;
+}
+
+.nav-list,
+.email-form {
+    text-align: left;
+}
+
+.email-form form {
+    margin-top: 1vh;
+}
+
+.email-form form input {
+    color: #BDBDBD;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    border: none;
 }
 
+.email-form form #email {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    width: 350px;
+    height: 60px;
+}
+
+.email-form form #button {
+    color: #F2F2F2;
+    margin-left: -110px;
+    border-radius: 12px;
+    background-color: #2D9CDB;
+    width: 110px;
+    height: 60px;
+}
+
+.email-form form #button:hover {
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1338px) {
     .introduction img {
