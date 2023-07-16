@@ -189,6 +189,15 @@ main>section {
     margin-right: 10vw;
 }
 
+.main-title {
+    color: #333;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 /* Services section */
 
@@ -197,6 +206,7 @@ main>section {
     flex-direction: column;
     align-items: center;
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .service-title {
@@ -210,14 +220,6 @@ main>section {
 }
 
 
-.service-title h1 {
-    color: #333;
-    font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .service-card {
     display: flex;
@@ -336,6 +338,7 @@ main>section {
 
     .service {
         margin-top: 6rem;
+        margin-bottom: 6rem;
     }
 
     .service-card-container {
@@ -344,7 +347,7 @@ main>section {
         align-items: center;
     }
 
-    .service-title h1 {
+    .main-title {
         margin-bottom: 1rem;
         font-size: 1.5rem;
     }
