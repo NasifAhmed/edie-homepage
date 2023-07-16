@@ -84,10 +84,10 @@ nav {
 /* Introduction section */
 
 .introduction {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around; */
+    justify-content: space-around;
     margin-top: 10rem;
 }
 
@@ -97,8 +97,8 @@ nav {
 .introduction p,
 .introduction form {
     padding-left: 20vw;
-    padding-right: 20vw;
     align-self: flex-start;
+    max-width: 26rem;
 }
 
 .introduction h3 {
@@ -131,7 +131,6 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 26rem;
     margin-top: 3vh;
 }
 
