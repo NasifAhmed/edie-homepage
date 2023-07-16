@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500&family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/f8a10744c8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -60,7 +64,9 @@
         </div>
         <div class="service-card-container">
           <div class="service-card">
-            <div class="service-icon">A</div>
+            <div class="service-icon serv-icon1">
+              <i class="fa-solid fa-pen"></i>
+            </div>
             <h3 class="service-card-title">UI/UX Design</h3>
             <p class="service-para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
@@ -69,8 +75,10 @@
             <button class="service-button">Get Started</button>
           </div>
           <div class="service-card">
-            <div class="service-icon">A</div>
-            <h3 class="service-card-title">UI/UX Design</h3>
+            <div class="service-icon serv-icon2">
+              <i class="fa-regular fa-code-simple"></i>
+            </div>
+            <h3 class="service-card-title">Front End</h3>
             <p class="service-para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
               metus ac nulla consequat aliquet id quis turpis.
@@ -78,8 +86,10 @@
             <button class="service-button">Get Started</button>
           </div>
           <div class="service-card">
-            <div class="service-icon">A</div>
-            <h3 class="service-card-title">UI/UX Design</h3>
+            <div class="service-icon serv-icon3">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h3 class="service-card-title">Back End</h3>
             <p class="service-para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
               metus ac nulla consequat aliquet id quis turpis.
@@ -171,8 +181,13 @@
       <div class="email-form">
         <h4>Want us to contact you?</h4>
         <form action="">
-          <input type="email" name="" id="email" placeholder="Email" />
-          <input type="button" id="button" value="Join" />
+          <input
+            type="email"
+            name=""
+            class="footer-email"
+            placeholder="Email"
+          />
+          <input type="button" class="footer-button" value="Join" />
         </form>
       </div>
     </footer>

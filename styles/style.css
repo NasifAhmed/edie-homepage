@@ -242,7 +242,18 @@ main>section {
     align-items: center;
     justify-content: center;
     border-radius: 16px;
+}
+
+.serv-icon1 {
+    background: #2D9CDB;
+}
+
+.serv-icon2 {
     background: #27AE60;
+}
+
+.serv-icon3 {
+    background: #EB5757;
 }
 
 
@@ -414,6 +425,7 @@ footer {
     padding-right: 10rem;
     height: 20rem;
     color: #F2F2F2;
+    max-width: 100%;
 }
 
 .nav-list,
@@ -434,14 +446,14 @@ footer {
     border: none;
 }
 
-.email-form form #email {
+.footer-email {
     background-color: #F2F2F2;
     border-radius: 12px;
     width: 350px;
     height: 60px;
 }
 
-.email-form form #button {
+.footer-button {
     color: #F2F2F2;
     margin-left: -110px;
     border-radius: 12px;
@@ -562,6 +574,32 @@ footer {
 
     .team-picture-container {
         margin-top: 1rem;
+    }
+
+    footer {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #F2F2F2;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .email-from form input {
+        font-size: 18px;
+    }
+
+    .footer-email {
+        width: 150px;
+        height: 45px;
+    }
+
+    .footer-button {
+        margin-left: -70px;
+        width: 70px;
+        height: 45px;
     }
 
 }
