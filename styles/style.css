@@ -47,8 +47,7 @@ button {
 */
 
 header {
-    margin-top: 5vh;
-    margin-bottom: 4vh;
+    margin: 5vh 5rem 4vh 5rem;
 }
 
 nav {
