@@ -400,6 +400,20 @@ main>section {
     line-height: normal;
 }
 
+footer {
+    margin-top: 30vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    color: #A9A9A9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
 @media screen and (max-width: 1338px) {
     .introduction img {
         width: 90vw;
